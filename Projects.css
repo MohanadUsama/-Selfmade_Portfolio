@@ -262,12 +262,23 @@ main {
     background: #1e293b;
 }
 
+.projects .container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
 .project-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 4rem;
     align-items: start;
+     width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    box-sizing: border-box;
+     width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    box-sizing: border-box;
 }
 
 .project {
@@ -364,6 +375,7 @@ main {
 @media screen and (max-width: 992px) {
     .projects-section {
         grid-template-columns: 1fr;
+        padding: 20px
     }
     
     .Sub-section_title {
