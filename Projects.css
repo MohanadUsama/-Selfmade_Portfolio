@@ -375,7 +375,7 @@ main {
 @media screen and (max-width: 992px) {
     .projects-section {
         grid-template-columns: 1fr;
-        padding: 20px
+        padding: 20px;
     }
     
     .Sub-section_title {
