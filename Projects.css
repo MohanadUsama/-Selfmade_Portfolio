@@ -260,6 +260,7 @@ main {
 .projects {
     padding: 100px 0;
     background: #1e293b;
+    border-radius: 15px;
 }
 
 .projects .container {
